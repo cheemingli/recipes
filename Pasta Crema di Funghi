@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Pasta Crema di Funghi (Vapiano-stijl)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 2em auto;
+      padding: 1em;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    ul {
+      line-height: 1.6;
+    }
+    .note {
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pasta Crema di Funghi (Vapiano-stijl)</h1>
+
+  <h2>Ingrediënten (voor 2 personen)</h2>
+  <ul>
+    <li>200 g pasta naar keuze (bijv. linguine of campanelle)</li>
+    <li>2 eetlepels (30 g) roomboter of margarine met hoog vetgehalte</li>
+    <li>1/2 ui, fijngesnipperd</li>
+    <li>2 teentjes knoflook, fijngehakt</li>
+    <li>250 g champignons, in plakjes</li>
+    <li>100 ml droge witte wijn (≈ 7 eetlepels) of vervanging</li>
+    <li>100 ml slagroom</li>
+    <li>1/4 theelepel nootmuskaat</li>
+    <li>Zout en peper naar smaak</li>
+    <li>Verse peterselie, fijngehakt</li>
+    <li>Geraspte Grana Padano (optioneel)</li>
+  </ul>
+
+  <h2>Bereidingswijze</h2>
+  <ol>
+    <li>Kook de pasta volgens de verpakking, giet af en zet apart.</li>
+    <li>Verhit de boter in een grote pan op middelhoog vuur. Fruit de ui en knoflook tot ze glazig zijn.</li>
+    <li>Voeg de champignons toe en bak tot ze zacht zijn en vocht loslaten.</li>
+    <li>Blus af met de witte wijn en laat inkoken tot bijna verdampt.</li>
+    <li>Voeg slagroom en nootmuskaat toe. Breng op smaak met zout en peper. Laat zachtjes inkoken tot iets dikker.</li>
+    <li>Voeg de pasta toe en meng goed door de saus.</li>
+    <li>Serveer met verse peterselie en eventueel geraspte Grana Padano.</li>
+  </ol>
+
+  <p class="note">Tip: Als je geen witte wijn hebt, kun je Xiao Xing kookwijn gebruiken met een snufje suiker of een scheutje bouillon met wat citroensap.</p>
+
+</body>
+</html>
