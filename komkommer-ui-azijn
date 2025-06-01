@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Komkommer en Rode Ui op Azijn – Surinaamse Stijl</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 2em;
+      background-color: #f9f9f9;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    ul {
+      list-style: square;
+      margin-left: 1.5em;
+    }
+    .tip {
+      background-color: #eef;
+      border-left: 4px solid #66c;
+      padding: 0.5em 1em;
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Komkommer en Rode Ui op Azijn – Surinaamse Stijl</h1>
+
+  <h2>Ingrediënten</h2>
+  <ul>
+    <li>1 grote komkommer</li>
+    <li>1 grote rode ui</li>
+    <li>100 ml witte rijstazijn</li>
+    <li>75–100 ml water</li>
+    <li>1 eetlepel suiker</li>
+    <li>½ theelepel zout</li>
+    <li>1 madame Jeanette peper (optioneel)</li>
+    <li>Paar takjes selderij of peterselie (optioneel)</li>
+  </ul>
+
+  <h2>Bereidingswijze</h2>
+  <ol>
+    <li>Was de komkommer en snijd in dunne plakjes (eventueel met een mandoline). Je kunt de schil eraan laten of verwijderen naar wens.</li>
+    <li>Snijd de rode ui in dunne halve ringen.</li>
+    <li>Snijd de madame Jeanette (indien gebruikt) doormidden en verwijder eventueel de zaadjes. Snijd in reepjes of laat heel voor mildere smaak.</li>
+    <li>Maak de marinade: meng de rijstazijn, het water, de suiker en het zout in een kom. Roer tot alles is opgelost.</li>
+    <li>Doe de komkommer, ui en peper in een schone glazen pot of kom. Giet de marinade eroverheen. Meng goed.</li>
+    <li>Zorg dat alle groenten onder het vocht staan. Dek af en zet in de koelkast.</li>
+    <li>Laat minstens 1 uur intrekken, maar het liefst langer (bijvoorbeeld een nacht) voor diepere smaak.</li>
+  </ol>
+
+  <div class="tip">
+    <strong>Tip:</strong> Serveer dit frisse zuur bij roti, nasi, bami of gegrilde kip. In de koelkast is het 1 tot 2 weken houdbaar in een afgesloten pot.
+  </div>
+
+</body>
+</html>
