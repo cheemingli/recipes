@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pasta Bolognese — 2 personen</title>
+  <style>
+    :root{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;line-height:1.5;color:#222}
+    body{max-width:760px;margin:36px auto;padding:20px;background:#fff}
+    header{display:flex;align-items:center;justify-content:space-between}
+    h1{font-size:1.6rem;margin:0}
+    .meta{color:#555;font-size:0.95rem}
+    .card{border:1px solid #eee;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(30,30,30,0.04);margin-top:18px}
+    ul{margin:8px 0 16px 20px}
+    ol{margin:8px 0 16px 20px}
+    .tips{font-size:0.95rem;background:#fafafa;border-left:4px solid #f0c674;padding:10px;border-radius:6px}
+    footer{margin-top:22px;color:#666;font-size:0.9rem}
+    .controls{display:flex;gap:8px}
+    button{background:#1976d2;border:none;color:white;padding:8px 12px;border-radius:8px;cursor:pointer}
+    button.secondary{background:#6c757d}
+    pre{white-space:pre-wrap}
+    @media print{button, .controls{display:none}body{box-shadow:none;margin:0}}
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Pasta Bolognese</h1>
+      <div class="meta">Voor: <strong>2 personen</strong> • Bereiding: ~45 min</div>
+    </div>
+    <div class="controls">
+      <button id="downloadBtn">Download HTML</button>
+      <button id="printBtn" class="secondary">Print</button>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>Ingrediënten</h2>
+    <ul>
+      <li>200 g pasta (spaghetti, tagliatelle of penne)</li>
+      <li>1 el olijfolie</li>
+      <li>½ ui, fijngesnipperd</li>
+      <li>1 teentje knoflook, fijngehakt</li>
+      <li>½ wortel, in kleine blokjes</li>
+      <li>½ stengel bleekselderij, in kleine blokjes</li>
+      <li>250 g rundergehakt</li>
+      <li>35 g tomatenpuree (ongeveer 2 el)</li>
+      <li>200 g tomatenblokjes (½ blik)</li>
+      <li>50 ml rode wijn (optioneel)</li>
+      <li>50 ml melk of room</li>
+      <li>½ tl gedroogde oregano</li>
+      <li>½ tl gedroogde basilicum</li>
+      <li>Zout en peper naar smaak</li>
+      <li>Parmezaanse kaas, vers geraspt</li>
+      <li>Eventueel verse basilicum ter garnering</li>
+    </ul>
+
+    <h2>Bereidingswijze</h2>
+    <ol>
+      <li>Verhit de olijfolie in een pan. Fruit ui, knoflook, wortel en bleekselderij ca. 5 minuten tot ze zacht zijn.</li>
+      <li>Voeg het gehakt toe en bak rul en goudbruin. Breng op smaak met zout en peper.</li>
+      <li>Roer de tomatenpuree erdoor en bak 1 minuut mee. Voeg de tomatenblokjes en eventueel de rode wijn toe. Laat 5 minuten zachtjes koken.</li>
+      <li>Roer de melk of room erdoor en voeg oregano en basilicum toe. Laat minstens 25–30 minuten zachtjes pruttelen (langer mag altijd).</li>
+      <li>Kook de pasta al dente volgens de verpakking. Giet af en bewaar een beetje kookvocht.</li>
+      <li>Meng de pasta met de saus (eventueel een scheutje kookvocht erbij). Serveer met Parmezaanse kaas en eventueel verse basilicum.</li>
+    </ol>
+
+    <div class="tips">
+      <strong>Tips:</strong>
+      <ul>
+        <li>Laat de saus langer pruttelen (45–60 min) voor meer diepgang.</li>
+        <li>Voor extra umami kun je een scheutje sojasaus of een beetje balsamico toevoegen.</li>
+        <li>Wil je minder vet: vervang room door magere melk of laat de melk weg.</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    Gemaakt met liefde 🍝 — pas gerust ingrediënten en tijden aan naar smaak.
+  </footer>
+
+  <script>
+    document.getElementById('printBtn').addEventListener('click', function(){ window.print(); });
+
+    document.getElementById('downloadBtn').addEventListener('click', function(){
+      const html = '<!doctype html>\n' + document.documentElement.outerHTML;
+      const blob = new Blob([html], {type: 'text/html'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'pasta-bolognese-2p.html';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>
