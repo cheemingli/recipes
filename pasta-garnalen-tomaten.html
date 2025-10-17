@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pasta met Garnalen in Tomaten-Wittewijnsaus</title>
+  <style>
+    body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; line-height:1.5; color:#222; margin:0; padding:20px; background:#f7f7f7; }
+    .container { max-width:760px; margin:0 auto; background:#fff; padding:22px 28px; box-shadow:0 2px 10px rgba(0,0,0,0.06); border-radius:8px; }
+    h1 { margin-top:0; }
+    .meta { color:#666; font-size:0.95rem; margin-bottom:12px; }
+    ul.ingredients { columns:2; -webkit-columns:2; -moz-columns:2; list-style:none; padding:0; margin:0 0 18px 0; }
+    ul.ingredients li { padding:4px 0; }
+    ol.steps { padding-left:1.1rem; margin-top:0; }
+    .note { background:#fffbe6; border-left:4px solid #ffd54a; padding:10px 12px; margin:14px 0; border-radius:4px; }
+    .tips { font-size:0.95rem; color:#444; }
+    .buttons { margin-top:16px; display:flex; gap:8px; }
+    button { background:#2d7bf6; color:#fff; border:none; padding:8px 12px; border-radius:6px; cursor:pointer; font-size:0.95rem; }
+    button.secondary { background:#eee; color:#222; }
+    footer { margin-top:20px; color:#666; font-size:0.9rem; }
+    @media (max-width:600px) { ul.ingredients { columns:1; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Pasta met Garnalen in Tomaten-Wittewijnsaus</h1>
+    <div class="meta">Italiaans geïnspireerd pastagerecht voor <strong>2 personen</strong> — fris, licht pittig en vol smaak van zee en tomaat.</div>
+
+    <h2>Ingrediënten</h2>
+    <ul class="ingredients">
+      <li>200–220 g pasta (spaghetti of linguine)</li>
+      <li>250 g rauwe garnalen, gepeld</li>
+      <li>2 el olijfolie</li>
+      <li>2 teentjes knoflook, fijngehakt</li>
+      <li>1 kleine sjalot of ½ ui, fijngehakt</li>
+      <li>½ tl chilivlokken (of naar smaak)</li>
+      <li>75 ml droge witte wijn (of groentebouillon)</li>
+      <li>200 g cherrytomaten, gehalveerd of ½ blik tomatenblokjes (200 g)</li>
+      <li>1 el tomatenpuree (optioneel)</li>
+      <li>Zout en peper</li>
+      <li>1 tl citroensap uit flesje (naar smaak, pas aan het eind toevoegen)</li>
+      <li>1 el verse peterselie, fijngehakt</li>
+      <li>(Optioneel) 1 kleine klont boter voor extra romigheid</li>
+      <li>Parmezaanse kaas (optioneel bij serveren)</li>
+    </ul>
+
+    <h2>Tijd</h2>
+    <p class="meta">Voorbereiding ~10 min • Koken ~20 min • Totaal ~30 min</p>
+
+    <h2>Bereiding</h2>
+    <ol class="steps">
+      <li>Kook de pasta in ruim gezouten water tot <em>al dente</em>. Bewaar een half kopje kookvocht.</li>
+      <li>Verhit 1 el olijfolie in een grote koekenpan en bak de garnalen 1–2 minuten per kant tot ze roze en net gaar zijn. Haal ze uit de pan en zet apart.</li>
+      <li>Voeg de rest van de olijfolie toe en fruit de sjalot en knoflook zachtjes, zonder te kleuren.</li>
+      <li>Voeg de chilivlokken en tomatenpuree toe en bak kort (ca. 30 sec) mee.</li>
+      <li>Blus af met de witte wijn en laat 2 minuten inkoken tot de alcohol verdampt.</li>
+      <li>Voeg de tomaten toe en laat de saus 8–10 minuten zachtjes pruttelen tot hij wat indikt. Breng op smaak met zout en peper.</li>
+      <li>Doe de garnalen terug in de pan en voeg de citroensap toe. Laat 1–2 minuten meewarmen.</li>
+      <li>Voeg de pasta toe aan de saus en meng goed. Voeg eventueel wat pastakookvocht toe om de saus mooi te binden.</li>
+      <li>Bestrooi met peterselie en eventueel een klontje boter voor glans.</li>
+      <li>Serveer direct, eventueel met Parmezaanse kaas en een stukje brood om de saus op te vegen.</li>
+    </ol>
+
+    <div class="note">
+      <strong>Tip over witte wijn:</strong> De alcohol verdampt volledig als je de wijn 2 minuten laat koken en de saus daarna nog even laat pruttelen. Wil je het kindvriendelijk houden? Gebruik groentebouillon in plaats van wijn.
+    </div>
+
+    <h3>Serveer met</h3>
+    <ul class="tips">
+      <li>Een frisse groene salade met citroendressing of balsamico.</li>
+      <li>Stokbrood of ciabatta om de saus op te dippen.</li>
+      <li>Een glas witte wijn of bruisend water met een schijfje citroen.</li>
+    </ul>
+
+    <div class="buttons">
+      <button onclick="window.print()">Print dit recept</button>
+      <button class="secondary" onclick="copyToClipboard()">Kopieer recept (HTML)</button>
+    </div>
+
+    <footer>
+      <small>Buon appetito! 🍝 Een lichte, zomerse pasta met de smaken van Italië aan zee.</small>
+    </footer>
+  </div>
+
+  <script>
+    function copyToClipboard() {
+      const html = document.documentElement.outerHTML;
+      navigator.clipboard.writeText(html).then(() => {
+        alert('HTML van het recept is gekopieerd naar je klembord.');
+      }).catch(() => {
+        alert('Kopiëren niet gelukt — probeer handmatig selecteren en kopiëren.');
+      });
+    }
+  </script>
+</body>
+</html>
